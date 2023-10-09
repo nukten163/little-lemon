@@ -1,9 +1,44 @@
-body {
-  margin-left: 100px;
-  margin-right: 100px;
+nav > ul {
+    font-size: var(--body-font-size);
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav > img {
+    width: 200px;
+    height: auto;
+}
+
+.coverImage {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.heroSection > aside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heroSection > aside > header > h1 {
+    font-weight: var(--main-font-weight);
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    color: var(--accent-color);
+}
+
+.heroSection > aside > header > h2 {
+    font-family: var(--main-font);
+    font-size: var(--body-font-size);
+    color: var(--fade-color);
+}
+
+.heroSection > aside > p {
+    font-size: var(--body-font-size);
+    color: var(--light-color);
 }

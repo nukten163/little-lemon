@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import "https://fonts.fontstorage.com/import/markazitext.css";
+@import "https://fonts.fontstorage.com/import/inter.css";
+
+:root {
+  --bg-color: #F4F1E1;
+  --main-color: #495E57;
+  --accent-color: #F4CE14;
+  --text-color: #000;
+  --light-color: #D9D9D9;
+  --fade-color: #A1A1A1;
+  --main-font-size: 64px;
+  --main-font-weight: 700;
+  --body-font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  user-select: none;
+  font-family: 'Markazi Text';
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  padding: 25px 300px;
+  font-family: var(--main-font);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroSection {
+  height: 400px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 300px;
+  background-color: var(--main-color);
+}
+
+.partners {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green {
+  padding: 0.2em 3em;
+  border-radius: 100px;
+  background-color: var(--main-color);
+  color: var(--light-color);
 }

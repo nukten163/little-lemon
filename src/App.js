@@ -6,6 +6,7 @@ import Highlight from './components/Highlight';
 import Testimonials from './components/Testimonials';
 import Faq from './components/FAQ';
 import Form from './components/Form';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Partners/>
       <Highlight/>
       <Testimonials/>
-      <Faq />
-      <Form />
+      <Faq/>
+      <Form/>
     </main>
+    <Footer/>
     </>
   );
 }

@@ -18,7 +18,7 @@ function Form() {
   };
 
   return (
-    <div className="App">
+    <div className="form">
       <form onSubmit={handleSubmit}>
         <fieldset>
           <h2>Book a call</h2>
