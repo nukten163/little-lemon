@@ -1,9 +1,13 @@
 nav > ul {
     font-size: var(--body-font-size);
-    font-weight: 300;
+    color: #000;
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+
+a {
+    color: inherit
 }
 
 nav > img {
@@ -41,4 +45,135 @@ nav > img {
 .heroSection > aside > p {
     font-size: var(--body-font-size);
     color: var(--light-color);
+}
+
+.heroSection > aside > button {
+    margin-top: 50px;
+}
+
+.green {
+    padding: 0.01em 2em;
+    border-radius: 100px;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    text-align: center;
+}
+
+.grid-layout {
+    padding: 25px 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    height: 100px;
+    width: auto;
+}
+
+.highlight > h1 {
+    font-weight: var(--main-font-weight);
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.highlight > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.big {
+    font-size: 70px;
+    color: var(--accent-color);
+}
+
+.fade {
+    font-size: 40px;
+    color: var(--fade-color);
+}
+
+.category {
+    font-size: 40px;
+    color: var(--light-color)
+}
+
+.flex-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container {
+    padding: 200px;
+    background-color: rgba(73, 94, 87, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.icon > img {
+    width: 100px;
+}
+
+.services header {
+    height: 40%;
+    font-size: large;
+}
+
+input, label, select {
+    display: block;
+    font-size: 25px;
+}
+
+label {
+    color: #FFF;
+}
+
+form {
+    padding: 25px 300px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 0px;
+}
+
+.form {
+    background-color: var(--main-color);
+}
+
+.form > h1 {
+    font-weight: var(--main-font-weight);
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    color: var(--accent-color);
+    text-align: center;
 }

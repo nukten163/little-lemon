@@ -46,14 +46,65 @@ nav {
 }
 
 .partners {
+  padding: 50px 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
 
-.green {
-  padding: 0.2em 3em;
-  border-radius: 100px;
+.highlight {
+  padding: 50px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   background-color: var(--main-color);
-  color: var(--light-color);
+}
+
+.services {
+  padding: 50px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.faq  {
+  padding: 50px 300px;
+  background-color: var(--main-color);
+}
+
+footer {
+  padding: 50px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.socials > .icon {
+  width: 250px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  width: 45px;
+  height: auto;
+}
+
+.info > header {
+  font-size: 30px;
+}
+
+.info > ul {
+  font-size: 20px;
 }

@@ -1,44 +1,31 @@
-import Icon from "../icons_assets/Dish icon.svg"
+import { Divider, Typography } from '@mui/material'
 
 function Highlight() {
     return (
-        <article class="highlight">
-            <header>
-                <h1>Our services</h1>
-            </header>
-            <div class="container">
-                <div class="icon">
-                    <img src={Icon} alt=""  />
-                </div>
-                <header>
-                    <h1>Service 1</h1>
-                </header>
+        <div class="highlight">
+            <Typography variant="h1" component='h1'>
+                We offer You best quality
+            </Typography>
+            <div width='100%'>
+                <p class="text">
+                    <span class="big">100+ </span> <span class="fade">businesses</span><br /><span class="category">saved</span>
+                </p>
+                <Divider orientation="vertical" flexItem
+                sx={{
+                    borderColor: 'rgba(161, 161, 161, 0.5)',
+                }} />
+                <p class="text">
+                    <span class="big">100+ </span> <span class="fade">years</span><br /><span class="category">on the market</span>
+                </p>
+                <Divider orientation="vertical" flexItem
+                sx={{
+                    borderColor: 'rgba(161, 161, 161, 0.5)',
+                }} />
+                <p class="text">
+                     <span class="big">100+ </span> <span class="fade">employees</span><br /><span class="category">of staff</span>
+                </p>
             </div>
-            <div class="container">
-                <div class="icon">
-                    <img src={Icon} alt=""  />
-                </div>
-                <header>
-                    <h1>Service 2</h1>
-                </header>
-            </div>
-            <div class="container">
-                <div class="icon">
-                    <img src={Icon} alt=""  />
-                </div>
-                <header>
-                    <h1>Service 3</h1>
-                </header>
-            </div>
-            <div class="container">
-                <div class="icon">
-                    <img src={Icon} alt=""  />
-                </div>
-                <header>
-                    <h1>Service 4</h1>
-                </header>
-            </div>
-        </article>
+        </div>
     );
 };
 

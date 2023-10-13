@@ -1,16 +1,29 @@
 import Logo from "../icons_assets/Logo.svg"
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
         <nav>
-            <img alt="" src={Logo} />
+            <img src={Logo} />
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order online</li>
-                <li>Login</li>
+                <li>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li>
+                    <Link to='/'>About</Link>
+                </li>
+                <li>
+                    <Link to='/'>Menu</Link>
+                </li>
+                <li>
+                    <Link to='/reservation'>Reservations</Link>
+                </li>
+                <li>
+                    <Link to='/'>Order online</Link>
+                </li>
+                <li>
+                    <Link to='/'>Login</Link>
+                </li>
             </ul>
         </nav>
     );

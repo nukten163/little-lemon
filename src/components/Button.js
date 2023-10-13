@@ -13,8 +13,10 @@ function Clicker(props) {
             fontWeight: 'medium',
             textTransform: 'none',
             borderRadius: '15px',
-            padding: '0px 16px'
-        }}>
+            padding: '0px 16px',
+        }}
+        type={props.type}
+        disabled={props.disabled}>
             {props.content}
         </Button>
     );
