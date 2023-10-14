@@ -2,7 +2,7 @@ import { Button } from '@mui/material'
 
 function Clicker(props) {
     return (
-        <Button disableRipple variant='solid'
+        <Button disableRipple variant='solid' aria-label='on click'
         sx={{
             color: '#000',
             bgcolor: '#F4CE14',
